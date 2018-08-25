@@ -1,7 +1,11 @@
 # data-mining
 A computing system that can understand human gestures (American Sign Language)
 
+<<<<<<< HEAD
 Initially the data was collected from students (in different groups) for the accelerometer, gyroscope, orientation and EMG sensors.
+=======
+Initially the data was collected from students (in different groups) for the accelerometer, gyroscope, orientation and EMG sensors. 
+>>>>>>> f8283be5079687b816f2b84b30258a49b7fe1db5
 
 Phase 1 – The collected 18 data streams (34 sensor data including the left-hand and right-hand data), are annotated into 10 different files based on the gestures.
 
@@ -9,6 +13,10 @@ Phase 2 – We have performed the feature extraction and the feature selection t
 
 Phase 3 - We analyze the feature extraction methods picked in Phase 2 and identify the features that are responsible for the highest variance in the data set, according to the Principal Component Analysis (PCA).
 
+<<<<<<< HEAD
 After all the above described phases, we found that the PCA results were very helpful in drilling down the list of candidate sensors for specific gestures based on the principal component MATLAB results. Also, PCA geared us in the right direction with respect to certain wrong intuitions of Phase 2.
+=======
+After all the above described phases, we found that the PCA results were very helpful in drilling down the list of candidate sensors for specific gestures based on the principal component MATLAB results. Also, PCA geared us in the right direction with respect to certain wrong intuitions of Phase 2. 
+>>>>>>> f8283be5079687b816f2b84b30258a49b7fe1db5
 
 Then the user independent and user dependent analysis were carried out using the raw data collected initially and some of the Machine Learning algorithms like Decision Tree, Support Vector Machine and Artificial Neural Network were implemented. Here, Artificial Neural Network gave us the best possible results in terms of Precision, Recall, F1 score and Accuracy values (calculated from the confusion matrices) in the process of segmenting the sequence of gestures.
